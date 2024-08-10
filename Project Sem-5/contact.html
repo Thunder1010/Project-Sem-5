@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusControl | Contact Us</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Edu VIC WA NT Beginner', sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      background: url('desktop-1920x1080.jpg') no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar h1 {
+      font-size: 24px;
+    }
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+    .navbar ul li {
+      margin-left: 20px;
+    }
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 80px);
+      text-align: center;
+    }
+    .contact-header {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .contact-info {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .social-icons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    .social-icons button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: none;
+      border-radius: 50%;
+      color: transparent;
+      font-size: 24px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      background-size: cover;
+      background-position: center;
+    }
+    .social-icons button:hover {
+      background-color: #007bff;
+    }
+    .social-icons .instagram {
+      background-image: url('2224668_instagram_instagram button_instagram logo_social media_icon.png'); /* Replace with your Instagram icon URL */
+    }
+    .social-icons .facebook {
+      background-image: url('2224649_facebook_facebook button_facebook logo_social media_icon.png'); /* Replace with your Facebook icon URL */
+    }
+    .social-icons .twitter {
+      background-image: url('2224651_social media_twitter_twitter button_twitter logo_icon.png'); /* Replace with your Twitter icon URL */
+    }
+    .social-icons .linkedin {
+      background-image: url('2224659_linkedin_linkedin button_linkedin logo_social media_icon.png'); /* Replace with your LinkedIn icon URL */
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>CampusControl</h1>
+    <ul>
+      <li><a href="Homepage.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="Login.html">Login</a></li>
+    </ul>
+  </div>
+
+  <div class="contact-container">
+    <h2 class="contact-header">Contact Us</h2>
+    <p class="contact-info">Phone: +1 (123) 456-7890</p>
+    <p class="contact-info">Email: contact@campuscontrol.com</p>
+  </div>
+
+  <div class="social-icons">
+    <button onclick="window.location.href='https://www.instagram.com/'" class="instagram" aria-label="Instagram"></button>
+    <button onclick="window.location.href='https://www.facebook.com/'" class="facebook" aria-label="Facebook"></button>
+    <button onclick="window.location.href='https://twitter.com/'" class="twitter" aria-label="Twitter"></button>
+    <button onclick="window.location.href='https://www.linkedin.com/'" class="linkedin" aria-label="LinkedIn"></button>
+  </div>
+</body>
+</html>
